@@ -3,19 +3,19 @@
 #define CLICKABLE_BLOCKS
 
 const Block blocks[] = {
-	BLOCK("sb-nettraf",    	1, 	  8),
-	BLOCK("sb-network",    	5, 	  7),
+	BLOCK("${HOME}/.local/statusbar/sb-nettraf",    	1, 	  8),
+	BLOCK("${HOME}/.local/statusbar/sb-network",    	5, 	  7),
 	
-	BLOCK("sb-smb1",  		0,    9),
-	BLOCK("sb-smb2",  		0,    10),
-	BLOCK("sb-smb3",  		0,    11),
+	BLOCK("${HOME}/.local/statusbar/sb-smb1",  		0,    9),
+	BLOCK("${HOME}/.local/statusbar/sb-smb2",  		0,    10),
+	BLOCK("${HOME}/.local/statusbar/sb-smb3",  		0,    11),
 
-	BLOCK("sb-cpu",  		10,   6),
-	BLOCK("sb-memory",  	10,   5),
-	BLOCK("sb-disk",    	1800, 4),
+	BLOCK("${HOME}/.local/statusbar/sb-cpu",  		10,   6),
+	BLOCK("${HOME}/.local/statusbar/sb-memory",  	10,   5),
+	BLOCK("${HOME}/.local/statusbar/sb-disk",    	1800, 4),
 
-	BLOCK("sb-volume",  	0,    3),
-	BLOCK("sb-battery", 	5,    2),
+	BLOCK("${HOME}/.local/statusbar/sb-volume",  	0,    3),
+	BLOCK("${HOME}/.local/statusbar/sb-battery", 	5,    2),
 
-	BLOCK("sb-date",    	1,    1)
+	BLOCK("${HOME}/.local/statusbar/sb-date",    	1,    1)
 };
