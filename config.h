@@ -1,10 +1,10 @@
 #define CMDLENGTH 60
-#define DELIMITER "  "
+#define DELIMITER ""
 #define CLICKABLE_BLOCKS
 
 const Block blocks[] = {
-	BLOCK("${HOME}/.local/statusbar/sb-nettraf",    	1, 	  8),
-	BLOCK("${HOME}/.local/statusbar/sb-network",    	5, 	  7),
+	BLOCK("${HOME}/.local/statusbar/sb-nettraf",    1, 	  8),
+	BLOCK("${HOME}/.local/statusbar/sb-network",    5, 	  7),
 	
 	BLOCK("${HOME}/.local/statusbar/sb-smb1",  		0,    9),
 	BLOCK("${HOME}/.local/statusbar/sb-smb2",  		0,    10),
