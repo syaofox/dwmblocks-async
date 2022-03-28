@@ -6,7 +6,9 @@ const Block blocks[] = {
 	BLOCK("sb-nettraf",    	1, 	  8),
 	BLOCK("sb-network",    	5, 	  7),
 	
-	BLOCK("sb-smb",  		0,    9),
+	BLOCK("sb-smb1",  		0,    9),
+	BLOCK("sb-smb2",  		0,    10),
+	BLOCK("sb-smb3",  		0,    11),
 
 	BLOCK("sb-cpu",  		10,   6),
 	BLOCK("sb-memory",  	10,   5),
