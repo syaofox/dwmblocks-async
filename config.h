@@ -14,8 +14,8 @@ const Block blocks[] = {
 	BLOCK("${HOME}/.local/statusbar/sb-memory",  	10,   5),
 	BLOCK("${HOME}/.local/statusbar/sb-disk",    	1800, 4),
 
-	BLOCK("${HOME}/.local/statusbar/sb-volume",  	0,    3),
 	BLOCK("${HOME}/.local/statusbar/sb-battery", 	5,    2),
+	BLOCK("${HOME}/.local/statusbar/sb-volume",  	0,    3),	
 
 	BLOCK("${HOME}/.local/statusbar/sb-date",    	1,    1)
 };
